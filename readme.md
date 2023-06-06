@@ -2,7 +2,7 @@
 
 ![cQube-LLD-Parser drawio](https://github.com/ChakshuGautam/cQube-POCs/assets/67280631/7e2a95e9-29d7-4187-b101-74c2a785105a)
 
-The above diagram shows the low level diagram of the data ingestion process in cQube. 
+The above diagram shows the low level diagram of the data ingestion process in cQube...
 cQube accepts data in the form of CSVs, these CSVs are required to follow set and strict rules of naming conventions. These CSVs are then processed to create the processable JSON schemas out of the CSV data. These JSONs are then processed to generate the various datasets insert data into those datasets.
 If we go flow wise as shown in the diagram, we get the CSV files which are presently stored in the `/ingest` folder. There are two types of data files:
 1. **Dimension files**: These define the dimensions that act as the atomic building blocks for the actual dataset files. For example: District ids, school ids, etc.
